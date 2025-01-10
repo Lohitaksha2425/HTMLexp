@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Forms</h1>
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="Name"><br><br>
+        <label for="Age">Age:</label>
+        <input type="text" id="Age" name="Age"><br>
+        <form>
+            <p>Gender</p>
+            <input type="radio" id="Male" name="Gender" value="Male">
+            <label for="Male">Male</label>&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label for="Female">Female</label>&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="Other" name="Gender" value="Other">
+            <Label for="Other">Other</Label>&nbsp;&nbsp;&nbsp;
+        </form><br>
+        <label for="Mobile">Mobile:</label>
+        <input type="text" id="Mobile" name="Mobile"><br><br>
+        <label for="Weight">Weight:</label>
+        <input type="text" id="Weight" name="Weight"><br><br>
+        <label for="Height">Height</label>
+        <input type="text" id="Height" name="Height"><br><br>
+        <form>
+            <p>Which Language do you prefer?</p>
+            <input type="checkbox" id="English" name="Language" value="English">
+            <label for="English">English</label>
+            <input type="checkbox" id="Tamil" name="Language" value="Tamil">
+            <label for="Tamil">Tamil</label>
+            <input type="checkbox" id="Others" name="Language" value="Others">
+            <label for="Others">Others</label>
+        </form>
+        <form>
+            <p>Which ID proof do you have?</p>
+            <input type="checkbox" id="Aadhar" name="Language" value="Aadhar">
+            <label for="Aadhar">Aadhar</label>&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="PAN Card" name="Language" value="PAN Card">
+            <label for="PAN Card">PAN Card</label>&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="Ration Card" name="Language" value="Ration Card">
+            <label for="Ration Card">Ration Card</label>&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="Driving License" name="Language" value="Driving License">
+            <label for="Driving License">Driving License</label>&nbsp;&nbsp;&nbsp;
+        </form>
+        <form>
+            <p>Permissions</p>
+            <input type="checkbox" id="Read" name="Permissions" value="Read" >
+            <label for="Read">Read</label>&nbsp;
+            <input type="checkbox" id="Write" name="Permissions" value="Write">
+            <label for="Write">Write</label><br>
+            <input type="checkbox" id="Edit" name="Permissions" value="Edit">
+            <label for="Edit">Edit</label>&nbsp;
+            <input type="checkbox" id="Delete" name="Permissions" value="Delete">
+            <label for="Delete">Delete</label>
+        </form><br>
+        <script>
+            function gotothankyou(){
+                window.location.href = "thankyou.html"
+            }
+        </script>
+        <button type="submit" onclick="gotothankyou()">Submit</button>
+    </body>
+</html>
